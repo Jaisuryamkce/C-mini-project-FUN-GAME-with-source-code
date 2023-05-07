@@ -1,5 +1,5 @@
-# C-mini-project-FUN-GAME-with-source-code
-C mini project FUN GAME with source code
+C-mini-project-FUN-GAME-with-source-code
+
 #include <stdio.h>
 #include <stdlib.h>
 #include<time.h>
@@ -62,8 +62,7 @@ void color(){
  srand ( time(NULL) );		 
 
  col_r = rand() % 10 + 1; 
- 
-    switch(col_r){
+     switch(col_r){
         case 1:
         yellow();
        printf(" \n\nToday your todaylucky color is Yellow");
@@ -90,8 +89,7 @@ void color(){
          break;
          case 6:
          printf(" \n\nToday your todaylucky color is Violet");
-         
-         case 7:
+                  case 7:
          Purple();
          printf(" \n\nToday your todaylucky color is Purple");
          reset();
@@ -106,7 +104,7 @@ void color(){
          printf("\n\nToday your todaylucky color is White");
          break;
         
-    }
+   }
 }
   
 void fun_games(){
@@ -162,7 +160,7 @@ number = rand() % 10 + 1;
      printf("%d ", l2ln); 
       }   
       
-      if(l2ln==1)
+ if(l2ln==1)
         {
          red();
          printf("\n\n                💥   Game over          ");
@@ -180,7 +178,7 @@ number = rand() % 10 + 1;
           reset();
      }
      
-     green();
+  green();
      printf("        \n\n           LEVEL-3               ");
      reset();
      printf("\n\n Enter 5 to continue");
@@ -211,36 +209,25 @@ void todayluck(){
 	 facran = rand() % 10 + 1; 
        switch(facran){
         case 1:
-      
        printf("\n\n    🙄    ");
-       
-         break;
+       break;
          case 2:
          printf("\n\n   😍  ");
-         
          break;
          case 3:
          printf("\n\n     😅   ");
-      
-         break;
+               break;
          case 4:
-    
-         printf("\n\n    😒    ");
-      
-         break;
+             printf("\n\n    😒    ");
+               break;
          case 5:
-    
-         printf("\n\n    😒    ");
-         
-         break;
+             printf("\n\n    😒    ");
+                  break;
          case 6:
          printf("\n\n    😅   ");
-         
-         case 7:
-        
-         printf("\n\n    😎    ");
-        
-         break;
+                  case 7:
+                 printf("\n\n    😎    ");
+                 break;
          case 8:
          printf("\n\n    😀    ");
          break;
